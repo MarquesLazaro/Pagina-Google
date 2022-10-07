@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial, sans-serif;
+  color: #515151;
+  font-size: 13px;
+  line-height: 24px;
 }
 
 nav {
@@ -13,6 +17,8 @@ header ul {
   list-style: none;
   display: flex;
   align-items: center;
+  margin: 15px;
+  gap: 15px;
 }
 header .avatar {
   height: 32px;

@@ -1,10 +1,15 @@
-$cor_padrao: #fff;
+$fonte_padrao: arial,sans-serif;
+$cor_padrao: #515151;
 $tamanho_padrao: 13px;
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $fonte_padrao;
+    color: $cor_padrao;
+    font-size: $tamanho_padrao;
+    line-height: 24px;
 }
 
 nav{
@@ -17,6 +22,8 @@ header{
         list-style: none;
         display: flex;
         align-items: center;
+        margin: 15px;
+        gap: 15px;
     }
 
     .avatar{
