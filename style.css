@@ -4,4 +4,20 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

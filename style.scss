@@ -1,6 +1,27 @@
+$cor_padrao: #fff;
+$tamanho_padrao: 13px;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+header{ 
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .avatar{
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+    }
+}
