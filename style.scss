@@ -1,5 +1,6 @@
 $fonte_padrao: arial,sans-serif;
 $cor_padrao: #515151;
+$cor_fundo: #3c404314;
 $tamanho_padrao: 13px;
 
 *{
@@ -34,15 +35,24 @@ header{
     }
 
     .menu{
-        height: 25px;
-        width: 25px;
+        padding: 8px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu:hover,
+    .avatar:hover{
+        background-color: $cor_fundo;
+        border-radius: 50%;
     }
 
     .avatar{
-        height: 32px;
-        width: 32px;
+        padding: 5px;
+        height: 40px;
+        width: 40px;
         border-radius: 50%;
     }
+
 
     .texto:hover{
         text-decoration: underline;

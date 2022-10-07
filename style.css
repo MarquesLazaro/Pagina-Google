@@ -26,12 +26,19 @@ header .menu {
   cursor: pointer;
 }
 header .menu {
-  height: 25px;
-  width: 25px;
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+}
+header .menu:hover,
+header .avatar:hover {
+  background-color: rgba(60, 64, 67, 0.0784313725);
+  border-radius: 50%;
 }
 header .avatar {
-  height: 32px;
-  width: 32px;
+  padding: 5px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 header .texto:hover {
