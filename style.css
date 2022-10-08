@@ -86,5 +86,8 @@ main input {
   border: none;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
 }
+main input:focus {
+  border-radius: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
