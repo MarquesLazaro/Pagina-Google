@@ -55,15 +55,20 @@ main .logo {
   height: 275px;
   width: 275px;
 }
+main .pesquisa {
+  display: flex;
+  align-items: center;
+}
 main .fone,
 main .lupa {
   height: 24px;
   width: 24px;
 }
 main input {
-  width: 465px;
+  outline: none;
+  width: 560px;
   height: 42px;
-  padding: 1px 50px;
+  padding: 1px 40px;
   font-size: 16px;
   border-radius: 22px;
   border: none;
