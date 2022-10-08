@@ -45,4 +45,29 @@ header .texto:hover {
   text-decoration: underline;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .logo {
+  height: 275px;
+  width: 275px;
+}
+main .fone,
+main .lupa {
+  height: 24px;
+  width: 24px;
+}
+main input {
+  width: 465px;
+  height: 42px;
+  padding: 1px 50px;
+  font-size: 16px;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
+}
+
 /*# sourceMappingURL=style.css.map */
